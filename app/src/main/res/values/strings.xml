@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OTTE</string>
+    <string name="str_toast_turn_off_do_not_disturb">Please turn off Do Not Disturb mode.</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="str_toast_bluetooth_is_not_connected">Bluetooth is not Connected.</string>
+    <string name="unknown_device">Unknown device</string>
+</resources>

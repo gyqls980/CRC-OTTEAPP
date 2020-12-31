@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/mainColor"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/msf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zipperImage"
+        android:layout_centerHorizontal="true"
+        android:text="OTTE"
+        android:textColor="#FFFFFF"
+        android:textSize="70sp" />
+
+    <ImageView
+        android:id="@+id/zipperImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/otte" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zipperImage"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/mainColor"
+        android:onClick="onStartButtonClicked"
+        android:text="Start >>"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
