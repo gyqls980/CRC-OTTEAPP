@@ -7,3 +7,6 @@
 ### 3. 리뷰 데이터는 코디 리뷰를 등록할 때 활용한다.
 
 ##### MAIN : /app/src/main/java/com/example/otte/
+
+# CRC-OTTE Page
+http://ec2-54-180-26-148.ap-northeast-2.compute.amazonaws.com/
